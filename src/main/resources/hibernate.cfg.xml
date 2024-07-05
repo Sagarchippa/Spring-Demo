@@ -1,0 +1,20 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mysql</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">rootroot</property>
+
+        <!-- Hibernate dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- Optional: Echo all executed SQL to stdout -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- mappings -->
+        <mapping class="org.app.model.Employee"/>
+
+    </session-factory>
+</hibernate-configuration>
