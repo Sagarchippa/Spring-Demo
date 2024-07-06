@@ -24,7 +24,7 @@ import org.springframework.web.context.WebApplicationContext;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:applicationContext.xml"})
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class Example1 {
+public class ExampleTest {
 
 
     @Autowired
