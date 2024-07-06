@@ -1,11 +1,11 @@
 package org.app.service;
 
+import jakarta.transaction.Transactional;
 import org.app.dao.EmployeeDao;
 import org.app.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
